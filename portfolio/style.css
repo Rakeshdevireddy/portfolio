@@ -53,9 +53,9 @@ header{
     padding: 0 9%;
     
 }
-.home-content{
+/* .home-content{
     max-width: 60rem;
-}
+} */
 .home-content h1{
     font-size: 50px;
     font-weight: 700;
@@ -71,7 +71,15 @@ header{
     font-size: 15px;
     padding: 30px 20px;
 }
-
+#home-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#home-sec img{
+    align-self: center;
+    margin-left: 30%;
+}
 .btn-box{
     position: relative;
     display: flex;
@@ -131,9 +139,14 @@ color: #03d1ff;
 }
 .heading {
     font-size: 30px;
-    margin-bottom: 200px;
+    margin-bottom: 40px;
     color: #03d1ff;
 
+}
+.my-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 table {
     border-collapse: collapse;
